@@ -640,7 +640,6 @@ def set_max_duration(update: Update, context: CallbackContext):
 
         bot.send_message(
             chat_id=ADMIN_ID,
-            text="⚙️ Max Duration Changed:
 New: {} seconds
 By: @{}
 At: {}".format(
