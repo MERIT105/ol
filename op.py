@@ -618,8 +618,7 @@ def set_max_duration(update: Update, context: CallbackContext):
 
     if not context.args:
         update.message.reply_text(
-            "Usage: /setmaxd <seconds>
-Current max duration: {} seconds".format(MAX_ATTACK_DURATION)
+            "Usage: /setmaxd <seconds>\nCurrent max duration: {} seconds".format(MAX_ATTACK_DURATION)
         )
         return
 
